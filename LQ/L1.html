@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>链接样式测试</title>
+	<style>
+	div{
+		border:1px solid #00f;
+		width:200px;
+		height:200px;
+		position:absolute;
+		top:30%;
+		left:40%;
+	}
+	img{
+		opacity:0;
+		transition:all 3s;
+		position:absolute;
+		left:80%;
+	}
+
+	a{
+		font-size:5em;
+		position:absolute;
+		top:40px;
+		left:25px;
+	}
+	a:link{
+		color:black;
+	}
+	a:visited{
+		color:yellow;
+	}
+	a:hover{
+		color:green;
+	}
+	a:active{
+		color:blue;
+	}
+	a:hover img{
+		opacity:1;
+	}
+	</style>
+</head>
+<body>
+	<div>
+	<a href="https://www.taobao.com/">淘宝<img src="Q1.jpg" alt="淘宝图片"></a>
+    </div>
+</body>
+</html>
