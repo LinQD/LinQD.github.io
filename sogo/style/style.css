@@ -1,0 +1,94 @@
+
+.menu{
+	width:100%;
+	height: 40px;
+	background-color: #FC6B2D;
+	float:right;
+}
+
+
+.banner{
+    height:400px;
+    background:url(../imgs/banner_8.0.2.jpg)center;
+}
+.imga{
+	float:right;
+}
+.imga li{
+	float:left;
+}
+.clearfix::after{
+	content:"";
+	clear:both;
+    width:0;
+    height:0;
+    font-size:0;
+    display: block;
+}
+.header{
+      width: 1000px;
+      margin: 10px auto;
+      position: relative;
+}
+.header .logo{
+      width: 193px;
+      height: 40px;
+      float: left;
+}
+.header .search{
+      width: 325px;
+      height: 32px;
+      float: right;
+    }
+.header .search #key{
+        width: 290px;
+        height: 26px;
+        outline: none;
+        border: 1px solid #eee;
+        text-indent: 10px;
+        float: left;    
+    }
+.header .search #key:focus {
+     border: 1px solid #FC6B2D;
+    }
+.header .search #bth{
+        float: left;
+        width: 30px;
+        height: 30px;
+        text-indent: -9999em;
+        border: none;
+        outline: none;
+        background: url("http://dl.pinyin.sogou.com/index/header/search_box.png");
+        background-position: -294px 0;
+    }
+     .menu {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 0;
+      
+    }
+     .menu li {
+        list-style-type: none;
+        float: left;
+        padding: 11px 20px;
+        margin: 0 20px 0 0;
+        position: relative;   
+    }
+    .menu li.new::after {
+        content: "";
+        width: 26px;
+        height: 14px;
+        background: url('http://dl.pinyin.sogou.com/index/2.0/new.png');
+        position: absolute;
+        top: -16px;
+        right: 0px;
+    }
+    .menu li.act,
+    .menu li:hover {
+        background-color: #FF222D;
+    }
+    
+    .menu li a {
+        color: #fff;
+        text-decoration: none;
+    }
